@@ -1,7 +1,12 @@
 import React from 'react'
+import projects from '../assets/images/banner.jpg'
 
 const Banner = props => (
-  <section id="banner" className="major">
+  <section
+    style={{ backgroundImage: `url(${projects})` }}
+    id="banner"
+    className="major"
+  >
     <div className="inner">
       <header className="major">
         <h1>
