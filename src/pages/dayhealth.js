@@ -4,7 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerDayHealth from '../components/BannerDayHealth'
 
-import pic08 from '../assets/images/pic08.jpg'
+import dashboard from '../assets/images/dashboard.png'
+import wizard from '../assets/images/wizard.png'
+import stats from '../assets/images/stats.png'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
@@ -28,10 +30,12 @@ const Landing = props => (
             </h2>
           </header>
           <p>
-            Frontend built with React, Redux was used for most of the data flow
-            functionality; Styled with SASS. The backend runs on Nodejs, the
-            server is based on ExpressJS and the PostgreSQL database is
-            connected through Massive.
+            Frontend built with <strong>React</strong> , <strong>Redux</strong>{' '}
+            was used for most of the data flow functionality; Styled with{' '}
+            <strong>SASS</strong>. The backend runs on <strong>Nodejs</strong>,
+            the server is based on <strong>ExpressJS</strong> and the{' '}
+            <strong>PostgreSQL</strong>
+            database is connected through <strong>Massive</strong>.
             <br />
             {`Please refer to `}
             <a
@@ -41,86 +45,81 @@ const Landing = props => (
             >
               my github repository
             </a>
-            {` for more information:`}
+            {` for information about the source code.`}
           </p>
         </div>
       </section>
       <section id="two" className="spotlights">
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
-          </Link>
+          <div className="image">
+            <img src={dashboard} alt="dashbobard screenshot" />
+          </div>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Orci maecenas</h3>
+                <h3>Dashboard</h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                - In the dashboard, the logged in user is able to see logs that
+                they have previously entered. This is show under the “previous
+                entries” section on the lower side, users are able to view, edit
+                and delete previous entries. To view an entry, the user can
+                click on the entry title or select the view option from the drop
+                down menu on the right of the desired entry, this three for menu
+                contains three options: edit, view and delete. They can also
+                read a recent health-related article and either click the image
+                or the “learn more” button to be taken to the external page
+                where the article is originated from.
               </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic09} alt="" />
-          </Link>
+          <div className="image">
+            <img src={stats} alt="stats section" />
+          </div>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Rhoncus magna</h3>
+                <h3>Statistics section</h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                In the dashboard there is also a stats section. If the user has
+                entered any of the four indicators from the wizard, the will be
+                able to see a line graph with average info displayed. The line
+                graph in the dashboard is only for overall condition and pain
+                level. If the user clicks the graph, they will be routed into
+                the stats section, in here they can see the same graph from the
+                dashboard and two additional graphs for glucose and blood
+                pressure, these graphs will show information as long as the user
+                has previously provided it. Users can also enter the indicators
+                if they click the add indicators button, they are able to add
+                any of the four indicators listed in the wizard and select the
+                desired date from the date picker.
               </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic10} alt="" />
-          </Link>
+          <div className="image">
+            <img src={wizard} alt="wizard section" />
+          </div>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Sed nunc ligula</h3>
+                <h3>Wizard</h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                On the first step in the wizard, the user is able to record
+                their condition for today or a different day if they change the
+                date in the date-picker selector. There are 4 different
+                indicators they can enter: overall health for the day, pain
+                level, glucose level and blood pressure. After they click next,
+                they are taken into a Tex edit section where they have to enter
+                a log in order to be a el to submit. Through out the wizard, the
+                user is able to hit cancel in the top right corner and be routed
+                into the dashboard.
               </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </section>

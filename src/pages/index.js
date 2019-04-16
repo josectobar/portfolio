@@ -27,15 +27,17 @@ class HomeIndex extends React.Component {
         />
         <Banner />
         <div id="main">
-          <div className="inner">
-            <header className="major">
-              <h2 id="projects">Projects</h2>
+          <section>
+            <div className="inner">
+              <header className="major">
+                <h2 id="projects">Projects</h2>
+              </header>
               <p>
                 These are the main projects that I've worked on as a Web
                 Developer. Please click the images for more information.
               </p>
-            </header>
-          </div>
+            </div>
+          </section>
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${projects})` }}>
               <header className="major">

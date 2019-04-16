@@ -11,7 +11,7 @@ const Banner = props => (
       <header className="major">
         <h1>
           JOSE TOBAR <br />
-          Web Developer
+          Full Stack Web Developer
         </h1>
         <div className="inner">
           <ul className="icons">

@@ -21,7 +21,7 @@ const Menu = props => (
             Projects
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link onClick={props.onToggleMenu} to="/generic">
             Generic
           </Link>
@@ -30,23 +30,11 @@ const Menu = props => (
           <Link onClick={props.onToggleMenu} to="/elements">
             Elements
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link onClick={props.onToggleMenu} to="/#contact">
             Contact
           </Link>
-        </li>
-      </ul>
-      <ul className="actions vertical">
-        <li>
-          <a href="#" className="button special fit">
-            Get Started
-          </a>
-        </li>
-        <li>
-          <a href="#" className="button fit">
-            Log In
-          </a>
         </li>
       </ul>
     </div>
