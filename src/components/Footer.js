@@ -5,25 +5,19 @@ const Footer = props => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a
-            href="https://twitter.com/josectobar"
-            className="icon alt fa-twitter"
-          >
+          <a href="https://twitter.com/josectobar" className="icon fa-twitter">
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/josectobar"
-            className="icon alt fa-github"
-          >
+          <a href="https://github.com/josectobar" className="icon fa-github">
             <span className="label">GitHub</span>
           </a>
         </li>
         <li>
           <a
             href="https://www.linkedin.com/in/josectobar/"
-            className="icon alt fa-linkedin"
+            className="icon fa-linkedin"
           >
             <span className="label">LinkedIn</span>
           </a>

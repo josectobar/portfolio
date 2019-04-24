@@ -39,7 +39,7 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <a href="#">josectobar@gmail.com</a>
+            <a href="MAILTO:josectobar@gmail.com">josectobar@gmail.com</a>
           </div>
         </section>
         <section>
@@ -49,19 +49,6 @@ const Contact = props => (
             <span>(323) 437-9315</span>
           </div>
         </section>
-        {/* <section>
-          <div className="contact-method">
-            <span className="icon alt fa-home" />
-            <h3>Address</h3>
-            <span>
-              1234 Somewhere Road #5432
-              <br />
-              Nashville, TN 00000
-              <br />
-              United States of America
-            </span>
-          </div>
-        </section> */}
       </section>
     </div>
   </section>

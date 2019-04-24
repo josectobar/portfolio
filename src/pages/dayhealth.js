@@ -60,16 +60,10 @@ const Landing = props => (
                 <h3>Dashboard</h3>
               </header>
               <p>
-                - In the dashboard, the logged in user is able to see logs that
-                they have previously entered. This is show under the “previous
-                entries” section on the lower side, users are able to view, edit
-                and delete previous entries. To view an entry, the user can
-                click on the entry title or select the view option from the drop
-                down menu on the right of the desired entry, this three for menu
-                contains three options: edit, view and delete. They can also
-                read a recent health-related article and either click the image
-                or the “learn more” button to be taken to the external page
-                where the article is originated from.
+              In the dashboard, the logged in user can view previously-entered logs under the “previous entries” section on the lower side of the page, 
+              the previous entries can be viewed, edited and deleted. To view an entry, the user can click on the entry title or select the "view" option 
+              from the drop-down menu on the right. They can also read a health-related article by clicking the image or the “learn more” button that will 
+              open a separate tab to an external page.
               </p>
             </div>
           </div>
@@ -84,18 +78,8 @@ const Landing = props => (
                 <h3>Statistics section</h3>
               </header>
               <p>
-                In the dashboard there is also a stats section. If the user has
-                entered any of the four indicators from the wizard, the will be
-                able to see a line graph with average info displayed. The line
-                graph in the dashboard is only for overall condition and pain
-                level. If the user clicks the graph, they will be routed into
-                the stats section, in here they can see the same graph from the
-                dashboard and two additional graphs for glucose and blood
-                pressure, these graphs will show information as long as the user
-                has previously provided it. Users can also enter the indicators
-                if they click the add indicators button, they are able to add
-                any of the four indicators listed in the wizard and select the
-                desired date from the date picker.
+              A line graph for the pain and overall conditions readings will be displayed in the dashboard as long as there is data entered. When clicked,
+               the graph will route to the statistics page. Users can view graphs and add readings if they click the "add indicators" button.
               </p>
             </div>
           </div>
@@ -110,15 +94,9 @@ const Landing = props => (
                 <h3>Wizard</h3>
               </header>
               <p>
-                On the first step in the wizard, the user is able to record
-                their condition for today or a different day if they change the
-                date in the date-picker selector. There are 4 different
-                indicators they can enter: overall health for the day, pain
-                level, glucose level and blood pressure. After they click next,
-                they are taken into a Tex edit section where they have to enter
-                a log in order to be a el to submit. Through out the wizard, the
-                user is able to hit cancel in the top right corner and be routed
-                into the dashboard.
+              On the first step in the wizard, the user is able to add their current health condition based on any of the four different indicators available: 
+              overall health, pain level, glucose level, and blood pressure. After clicking next, they are required to enter a log before submitting. 
+              Throughout the wizard, the user is able to cancel and will then be then routed to the dashboard.
               </p>
             </div>
           </div>
