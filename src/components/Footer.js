@@ -25,9 +25,6 @@ const Footer = props => (
       </ul>
       <ul className="copyright">
         <li>&copy; Jose Tobar 2019</li>
-        <li>
-          Design: <a href="https://html5up.net">HTML5 UP</a>
-        </li>
       </ul>
     </div>
   </footer>

@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import projects from '../assets/images/projects.jpg'
+import projects2 from '../assets/images/projects-2.jpg'
 import js from '../assets/images/js.png'
 import postgresql from '../assets/images/postgresql.png'
 import nodejs from '../assets/images/nodejs.png'
@@ -21,8 +22,16 @@ class HomeIndex extends React.Component {
         <Helmet
           title="Jose Tobar - Web Developer"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                "Intrigued about software and programming, I decided to dive into web development. During my journey, I've been able to work on projects with the latest technologies such as React, Redux, Node, Express, amongst others. Using my creative and logical outlets, I am able to develop amazing web applications.",
+            },
+            {
+              name: 'keywords',
+              content:
+                'Web Developer, React, Hooks, Redux, NodeJS, Express, JavaScript, Developer, HTML5, CSS3, PostgreSQL',
+            },
           ]}
         />
         <Banner />
@@ -34,7 +43,15 @@ class HomeIndex extends React.Component {
               </header>
               <p>
                 These are the main projects that I've worked on as a Web
-                Developer. Please click the images for more information.
+                Developer. Please refer to{' '}
+                <a
+                  href="https://github.com/josectobar"
+                  target="_blank"
+                  alt="github account page for Jose Tobar"
+                >
+                  my GitHub account
+                </a>{' '}
+                for a complete list of all the projects that I've worked on.
               </p>
             </div>
           </section>
@@ -46,26 +63,12 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/dayhealth" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${projects})` }}>
+            <article style={{ backgroundImage: `url(${projects2})` }}>
               <header className="major">
-                <h3>Day Health</h3>
-                <p>A personal health journal.</p>
+                <h3>GameHub</h3>
+                <p>A social media platform for gamers.</p>
               </header>
-              <Link to="/dayhealth" className="link primary" />
-            </article>
-            <article style={{ backgroundImage: `url(${projects})` }}>
-              <header className="major">
-                <h3>Day Health</h3>
-                <p>A personal health journal.</p>
-              </header>
-              <Link to="/dayhealth" className="link primary" />
-            </article>
-            <article style={{ backgroundImage: `url(${projects})` }}>
-              <header className="major">
-                <h3>Day Health</h3>
-                <p>A personal health journal.</p>
-              </header>
-              <Link to="/dayhealth" className="link primary" />
+              <Link to="/gamehub" className="link primary" />
             </article>
           </section>
           <section id="two">
