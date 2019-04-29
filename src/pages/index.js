@@ -42,8 +42,8 @@ class HomeIndex extends React.Component {
                 <h2 id="projects">Projects</h2>
               </header>
               <p>
-                These are the main projects that I've worked on as a Web
-                Developer. Please refer to{' '}
+                These are some of my main projects as a Web Developer. Please
+                refer to{' '}
                 <a
                   href="https://github.com/josectobar"
                   target="_blank"
