@@ -29,11 +29,11 @@ const Landing = props => (
           </header>
           <p>
             This app was built using <strong>React Hooks</strong> in the front
-            end. The authentication process was made using{' '}
-            <strong>Auth0</strong>. many of the visual elements are part of{' '}
+            end. The authentication process was made with <strong>Auth0</strong>
+            . many of the visual elements are part of{' '}
             <strong>Material UI</strong>. <strong>Redux</strong> was used for
             many of the React components that required shared data. Most of the
-            styling was made using <strong>Styled Components</strong>. The
+            styling was done with <strong>Styled Components</strong>. The
             backend runs on <strong>Nodejs</strong>, the server is based on{' '}
             <strong>ExpressJS</strong> and the
             <strong> PostgreSQL </strong>
