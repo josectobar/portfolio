@@ -1,5 +1,6 @@
 import React from 'react'
 import projects from '../assets/images/banner.jpg'
+import joseTobarResume from '../assets/files/jose-tobar-resume-19.pdf'
 
 const Banner = props => (
   <section
@@ -48,13 +49,13 @@ const Banner = props => (
           <br />
           web development trends to create awesome web applications.
         </p>
-        {/* <ul className="actions">
+        <ul className="actions">
           <li>
-            <a href="#one" className="button next scrolly">
-              Learn more
+            <a href={joseTobarResume} className="button next scrolly" download>
+              Download resume
             </a>
           </li>
-        </ul> */}
+        </ul>
       </div>
     </div>
   </section>
