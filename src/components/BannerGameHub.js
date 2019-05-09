@@ -9,7 +9,7 @@ const BannerDayHealth = props => (
   >
     <div className="inner">
       <header className="major">
-        <h1>GameHub - A Gamers' Social Media Platform</h1>
+        <h1>GameHub - A Social Media for Gamers</h1>
       </header>
       <div className="content" />
     </div>

@@ -14,6 +14,8 @@ import react from '../assets/images/react.png'
 import redux from '../assets/images/redux.png'
 import html5 from '../assets/images/html5.png'
 import css3 from '../assets/images/css3.png'
+import gatsby from '../assets/images/gatsby-icon.png'
+import sass from '../assets/images/sass.png'
 
 class HomeIndex extends React.Component {
   render() {
@@ -103,6 +105,12 @@ class HomeIndex extends React.Component {
                 </div>
                 <div className="logo-container">
                   <span className="image logo">
+                    <img src={gatsby} alt="Gatsby" />
+                  </span>
+                  <h3>Gatsby</h3>
+                </div>
+                <div className="logo-container">
+                  <span className="image logo">
                     <img src={redux} alt="redux" />
                   </span>
                   <h3>Redux</h3>
@@ -124,6 +132,12 @@ class HomeIndex extends React.Component {
                     <img src={css3} alt="css3" />
                   </span>
                   <h3>CSS3</h3>
+                </div>
+                <div className="logo-container">
+                  <span className="image logo">
+                    <img src={sass} alt="sass" />
+                  </span>
+                  <h3>Sass</h3>
                 </div>
               </div>
             </div>

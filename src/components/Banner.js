@@ -45,9 +45,9 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          Creative and motived individual, passionate about the latest
-          <br />
-          web development trends to create awesome web applications.
+          Creative and motived individual, passionate about the{' '}
+          <a href="/#skills">latest frameworks and libraries</a> to create
+          awesome web applications.
         </p>
         <ul className="actions">
           <li>
