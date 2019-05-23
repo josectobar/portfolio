@@ -45,9 +45,9 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          Creative and motived individual, passionate about the{' '}
-          <a href="/#skills">latest frameworks and libraries</a> to create
-          awesome web applications.
+          Bilingual full stack web developer with a bachelor’s in business
+          management. I’m passionate about helping and teaching others. Being
+          challenged and learning new things is what gets me up every morning.
         </p>
         <ul className="actions">
           <li>

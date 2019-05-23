@@ -27,12 +27,12 @@ class HomeIndex extends React.Component {
             {
               name: 'description',
               content:
-                "Intrigued about software and programming, I decided to dive into web development. During my journey, I've been able to work on projects with the latest technologies such as React, Redux, Node, Express, amongst others. Using my creative and logical outlets, I am able to develop amazing web applications.",
+                "Bilingual full stack web developer with a bachelor’s in business management. I’m passionate about helping and teaching others. My fascination with tech and problem-solving made me gravitate to web development. I'm proficient with PostgreSQL, Express, React, React Native and Node. Being challenged and learning new things is what gets me up every morning.",
             },
             {
               name: 'keywords',
               content:
-                'Web Developer, React, Hooks, Redux, NodeJS, Express, JavaScript, Developer, HTML5, CSS3, PostgreSQL',
+                'Web Developer, React, React Native, Redux, NodeJS, Express, JavaScript, HTML5, CSS3, PostgreSQL',
             },
           ]}
         />
@@ -44,7 +44,7 @@ class HomeIndex extends React.Component {
                 <h2 id="projects">Projects</h2>
               </header>
               <p>
-                These are some of my main projects as a Web Developer. Please
+                These are some of my main projects as Web Developer. Please
                 refer to{' '}
                 <a
                   href="https://github.com/josectobar"
@@ -68,7 +68,7 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${projects2})` }}>
               <header className="major">
                 <h3>GameHub</h3>
-                <p>A social media platform for gamers.</p>
+                <p>A social media for gamers.</p>
               </header>
               <Link to="/gamehub" className="link primary" />
             </article>
