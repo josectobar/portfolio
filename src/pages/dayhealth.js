@@ -19,13 +19,6 @@ const Landing = props => (
     <div id="main">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h2>
-              <a href="https://www.dayhealth.space" target="_blank">
-                www.dayhealth.space
-              </a>
-            </h2>
-          </header>
           <p>
             Frontend built with <strong>React</strong> , <strong>Redux</strong>{' '}
             was used for most of the data flow functionality; Styled with{' '}

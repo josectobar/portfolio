@@ -20,13 +20,6 @@ const Landing = props => (
     <div id="main">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h2>
-              <a href="http://www.gamehub.club" target="_blank">
-                www.gamehub.club
-              </a>
-            </h2>
-          </header>
           <p>
             This app was built using <strong>React Hooks</strong> in the front
             end. The authentication process was made with <strong>Auth0</strong>
